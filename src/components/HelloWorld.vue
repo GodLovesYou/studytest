@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-   
+    <div>
+
+    </div>
   </div>
 </template>
 
@@ -16,11 +18,20 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .container{
-    width: 0;
-    height: 0;
-    border-width: 50px;
-    border-style: solid;
-    border-color: #f00 transparent transparent;
-    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 1px solid;
+    line-height: 200px;
+    text-align: center;
+    div{
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin-left: 200px;
+      vertical-align: middle;
+      border-radius: 20px;
+      background: red;
+    }
   }
 </style>
