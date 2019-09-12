@@ -29,7 +29,6 @@ export default {
   },
   methods: {
     renderContent(h,parmas) {
-      console.log(h,parmas)
       const loop = data =>{
         return (
           data.defvalue.column===0||data.defvalue.column===6?
@@ -39,8 +38,8 @@ export default {
               <div><span>{data.defvalue.text}</span></div>
               <div>加班</div>
             </div>
-          </div> 
-          : 
+          </div>
+          :
           <div>
             <div>班</div>
             <div class="remark">
